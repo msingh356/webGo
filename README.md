@@ -2,13 +2,9 @@
 Angular kickstart
 ### Pre-requisite
 <p><a href="https://nodejs.org/en/download/">NodeJS</a> </p>
-Run commands only after installing NodeJS && setting its path globally
-<dl>
-  <dt>Commands</dt>
-  <dd>
-##### Start app 
-  ```shell
+
+##### Start app
+```shell
   npm start
   ```
-  </dd>
-<dl>
+> Note: run this command only after installing nodejs globally
