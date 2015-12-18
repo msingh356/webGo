@@ -1,0 +1,31 @@
+{
+  "name": "webGo",
+  "version": "0.0.1",
+  "authors": [
+    "Saurabh Verma <desaurabh@live.com>"
+  ],
+  "description": "Stack built on AngularJs have defined development conventions which support robust web development",
+  "main": "app.js",
+  "keywords": [
+    "angular",
+    "stack",
+    "web",
+    "toolkits"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.8",
+    "angular-animate": "~1.4.8",
+    "angular-messages": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "angular-aria": "~1.4.8",
+    "angular-bootstrap": "~0.14.3"
+  }
+}
