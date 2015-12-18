@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "init": "npm install -g bower",
-      "start": "bower install &&  npm install && http-server -a localhost -p 3000"
+      "start": "npm install -g bower && bower install &&  npm install && http-server -a localhost -p 3000"
 
   },
   "repository": {
