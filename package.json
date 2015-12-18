@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "http-server -a localhost -p 8000"
+      "init": "npm install -g bower",
+      "start": "bower install &&  npm install && http-server -a localhost -p 3000"
+
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,6 @@
   },
   "homepage": "https://github.com/desaurabh/webGo",
   "devDependencies": {
-    "http-server": "^0.8.5"
-  }
+      "http-server": "^0.8.5"
+ }
 }
