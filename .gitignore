@@ -26,6 +26,5 @@ node_modules
 assets/deps
 *.~
 
-
 # Users Environment Variables
 .lock-wscript

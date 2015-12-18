@@ -4,9 +4,8 @@
   "description": "Angular kickstart",
   "main": "app.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "npm install -g bower && bower install &&  npm install && http-server -a localhost -p 3000"
-
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install &&  bower install && http-server -a localhost -p 3000"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   },
   "homepage": "https://github.com/desaurabh/webGo",
   "devDependencies": {
-      "http-server": "^0.8.5"
- }
+    "bower": "^1.7.1",
+    "http-server": "^0.8.5"
+  }
 }
