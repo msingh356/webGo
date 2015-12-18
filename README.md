@@ -6,16 +6,9 @@ Run commands only after installing NodeJS && setting its path globally
 <dl>
   <dt>Commands</dt>
   <dd>
-##### First run
-  ```shell
-  npm init 
-  ```
-  </dd>
-  <dd>
-  
 ##### Start app 
   ```shell
-  npm install
+  npm start
   ```
   </dd>
 <dl>
