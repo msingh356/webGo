@@ -1,0 +1,23 @@
+{
+  "name": "webGo",
+  "version": "0.0.1",
+  "description": "Angular kickstart",
+  "main": "app.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "http-server -a localhost -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desaurabh/webGo.git"
+  },
+  "author": "saurabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desaurabh/webGo/issues"
+  },
+  "homepage": "https://github.com/desaurabh/webGo",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  }
+}
