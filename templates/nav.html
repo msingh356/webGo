@@ -1,0 +1,14 @@
+<nav class="navbar navbar-default" ng-controller="NavigationController">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="nav-content-1">
+            <ul class="nav navbar-nav">
+                <li ng-repeat="item in menuItems" class="{{item.isActive}}">
+                    <a href="{{item.templateUrl}}" ng-click="doActive(item)">{{item.name}}</a>
+                </li>
+        </div>
+    </div>
+</nav>

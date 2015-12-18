@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app" ng-init="appTitle='Web-app'">
 
-  <head>
-    
+<head>
+
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
-    
+
     <title>{{appTitle}}</title>
     <link rel="import" href="assets/dependencies.html">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     <link rel="import" href="controllers/controllers.html">
     <link rel="import" href="services/services.html">
     <script type="text/javascript" src="app.js"></script>
-    
+
 </head>
 
-  <body>
+<body>
+
+    <!--layout begins -->
+    <div class="row">
+
+        <!-- top nav  begins -->
+        <div class="col-md-12">
+            <div ng-include="'templates/nav.html'"></div>
+        </div>
+        <!-- top nav ends -->
+
+        <!--content wrappper begins -->
+        <div class="col-md-12 layout-padding">
+            <div ng-view></div>
+        </div>
+        <!-- content wrapper ends -->
+
+
+    </div>
+    <!--layout ends -->
 
 
 
-    
 </body>
 
 </html>
